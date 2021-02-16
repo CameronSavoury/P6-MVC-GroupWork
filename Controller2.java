@@ -17,7 +17,7 @@ public class Controller2 extends JFrame
     private View3 view3;
     private View4 view4;
     private JButton clearViews;   // For direct message to views
-    private JButton refreshViews; // To prompt them to refresh their contents from the model
+//    private JButton refreshViews; // To prompt them to refresh their contents from the model
  
     // Constructor
     public Controller2(Model model) {
@@ -37,10 +37,10 @@ public class Controller2 extends JFrame
         clearViews = new JButton("Clear views");
         window.add(clearViews);
         clearViews.addActionListener(this);
-        refreshViews = new JButton("Refresh views");
-        window.add(refreshViews);
-        refreshViews.addActionListener(this);
-        // Create views
+//        refreshViews = new JButton("Refresh views");
+//        window.add(refreshViews);
+//        refreshViews.addActionListener(this);
+//        // Create views
         view3 = new View3(this, model);
         window.add(view3);
         view4 = new View4(this, model);
@@ -58,11 +58,11 @@ public class Controller2 extends JFrame
             view3.clear();
             view4.clear();
         }
-        if (e.getSource() == refreshViews) {
-            view3.update();
-            view4.update();
-        }
-        
+//        if (e.getSource() == refreshViews) {
+//            view3.update();
+//            view4.update();
+//        }
+//        
     } // actionPerformed
     
 } // class Controller2
