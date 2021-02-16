@@ -5,7 +5,6 @@ package mvcexample;
  * @author savi
  */
 // Launcher for application
-//Test comment 12345
 
 public class Main {
    
