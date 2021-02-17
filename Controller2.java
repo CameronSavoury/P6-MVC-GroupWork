@@ -63,7 +63,7 @@ public class Controller2 extends JFrame
             view4.clear();
         }
      if (e.getSource() == incrementB) {
-    	 {
+    	 
     		 model.modifyB();   
 
        }
