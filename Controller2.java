@@ -46,6 +46,10 @@ public class Controller2 extends JFrame
         view4 = new View4(this, model);
         window.add(view4);
         
+        incrementB = new JButton("Increment B Value");
+        window.add(incrementB);
+        incrementB.addActionListener(this);
+        
         // Display the frame
         setVisible(true);
         
