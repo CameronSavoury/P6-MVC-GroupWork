@@ -16,8 +16,8 @@ public class Main {
         
         //Instantiate Multiple Instances of Controller 2
         Controller2 c2 = new Controller2(model,"Controller 2",50,150); // Create second controller
-        Controller2 c21 = new Controller2(model,"Controller 2(1)",50,350)); // Create 2nd instance of the second controller
-        Controller2 c22 = new Controller2(model,"Controller 2(2)",50,500)); // Create 3rd instance of thesecond controller
+        Controller2 c21 = new Controller2(model,"Controller 2(1)",50,350); // Create 2nd instance of the second controller
+        Controller2 c22 = new Controller2(model,"Controller 2(2)",50,500); // Create 3rd instance of thesecond controller
         
     } // main1
   
