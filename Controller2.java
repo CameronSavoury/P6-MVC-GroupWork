@@ -18,7 +18,7 @@ public class Controller2 extends JFrame
     private View4 view4;
     private JButton clearViews;   // For direct message to views
 //    private JButton refreshViews; // To prompt them to refresh their contents from the model
- 
+    private JButton incrementB; 
     // Constructor
     public Controller2(Model model) {
     
@@ -58,10 +58,11 @@ public class Controller2 extends JFrame
             view3.clear();
             view4.clear();
         }
-//        if (e.getSource() == refreshViews) {
-//            view3.update();
-//            view4.update();
-//        }
+     if (e.getSource() == incrementB) {
+    	 {
+    		 model.modifyB();   
+
+       }
 //        
     } // actionPerformed
     
